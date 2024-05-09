@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.swing.text.html.Option;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -22,7 +23,10 @@ public class StudentController {
 
     private StudentService studentService;
 
-
+    @GetMapping
+    public List<Student> getAllStudents(){
+        return studentService.getAllStudents();
+    }
 
     @GetMapping("{id}")
     public Optional<Student> getStudent(@PathVariable(name = "id")Long id){
