@@ -1,7 +1,8 @@
-package com.elpadriiiino.studentmanagementapp.controller;
+package com.elpadriiino.studentmanagementapp.controller;
 
-import com.elpadriiiino.studentmanagementapp.model.Student;
-import com.elpadriiiino.studentmanagementapp.service.StudentService;
+import com.elpadriiino.studentmanagementapp.model.Student;
+
+import com.elpadriiino.studentmanagementapp.service.StudentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

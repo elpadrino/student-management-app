@@ -1,4 +1,4 @@
-package com.elpadriiiino.studentmanagementapp.model;
+package com.elpadriiino.studentmanagementapp.model;
 
 import jakarta.persistence.*;
 import lombok.*;

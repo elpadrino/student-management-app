@@ -1,7 +1,7 @@
-package com.elpadriiiino.studentmanagementapp.service;
+package com.elpadriiino.studentmanagementapp.service;
 
-import com.elpadriiiino.studentmanagementapp.model.Student;
-import com.elpadriiiino.studentmanagementapp.repository.StudentRepository;
+import com.elpadriiino.studentmanagementapp.model.Student;
+import com.elpadriiino.studentmanagementapp.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
